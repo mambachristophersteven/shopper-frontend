@@ -16,6 +16,7 @@ export const Navbar = () => {
         <li>Kids</li>
       </ul>
       <div className="nav-login-cart">
+        <button>login</button>
         <img src={cart_icon} alt="cart icon" />
       </div>
     </div>

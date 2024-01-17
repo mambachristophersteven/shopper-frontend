@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -19,10 +23,9 @@
     gap: 30px;
     align-items: center;
     justify-content: space-between;
-    color: #626262;
 }
 
-.nav-menu li{
+.nav-menu li a{
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -31,6 +34,7 @@
     font-weight: 600;
     cursor: pointer;
     gap: 2px;
+    color: #626262;
 }
 
 .nav-menu li hr{
@@ -60,6 +64,13 @@
     background: white;
     cursor: pointer;
 }
+
+.nav-login-cart button a{
+    color: #515151;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .nav-login-cart button:active{
     background: #f2f2f2;
 }

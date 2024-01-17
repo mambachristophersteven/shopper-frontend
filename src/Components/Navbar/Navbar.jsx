@@ -12,7 +12,7 @@ export const Navbar = () => {
         <p className="logo-name">SHOPPER</p>
       </div>
       <ul className="nav-menu">
-        <li onClick={()=>{setMenu("shop")}}>Shop <hr /></li>
+        <li onClick={()=>{setMenu("shop")}}>Shop{menu === "shop"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("mens")}}>Men</li>
         <li onClick={()=>{setMenu("womens")}}>Women</li>
         <li onClick={()=>{setMenu("kids")}}>Kids</li>

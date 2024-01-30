@@ -23,7 +23,7 @@ export const Navbar = () => {
         <Link to='/cart'>
           <img src={cart_icon} alt="cart icon" />
         </Link>
-        <div className="nav-cart-count"><Link to='/login'>0</Link></div>
+        <div className="nav-cart-count"><Link to='/cart'>0</Link></div>
       </div>
     </div>
   )

@@ -10,7 +10,7 @@ export const Navbar = () => {
     <div className='navbar'>
       <div className="nav-logo">
         <img src={logo} alt="logo" />
-        <p className="logo-name">SHOPPER</p>
+        <p className="logo-name">SHOPPER</p> 
       </div>
       <ul className="nav-menu">
         <li onClick={()=>{setMenu("shop")}}><Link to='/'>Shop</Link>{menu === "shop"?<hr/>:<></>}</li>
